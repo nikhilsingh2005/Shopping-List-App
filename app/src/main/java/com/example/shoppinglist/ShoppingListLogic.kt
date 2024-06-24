@@ -57,7 +57,7 @@ fun ShoppingListApp() {
             onClick = { showAlerts = true },
             modifier = Modifier.align(Alignment.CenterHorizontally)
         ) {
-            Text("Add items")
+            Text("Add items here")
         }
         LazyColumn(
             modifier = Modifier
